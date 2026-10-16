@@ -1,5 +1,5 @@
 ## ETU004196
 
--PLATS(__id_plats__,nom,prix,categorie,#id_categorie)(modifie)
+commande(__id_commande__, date_commande)(nouveau)
 
--Categorie(id_categorie,nom)(nouveau)
+Ligne_commande(__#id_commande__, __#id_plat__, quantite)(nouveau)
